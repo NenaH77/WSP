@@ -1,0 +1,423 @@
+/* Reset Page --------------------------------------------------------------------------*/
+
+@import "normalize.css";
+
+/* Main Style Page --------------------------------------------------------------------------*/
+
+body {
+	color: #86b05c;
+	font-size: 1.00em; /*-- 16px --*/
+	font-family: 'Libre Baskerville', serif;
+	margin: 01.5625%;
+	padding: 00.520833%;
+	background: #999; /* for non-css3 browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */	
+}
+
+/* Theatre Downtown Page --------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Fascinate Inline', cursive;
+}
+
+/* Sub Navigation Page --------------------------------------------------------------------------*/
+
+.submenu {
+	height: 1em;
+}	
+
+#menu ul { 
+	width: 80%;
+	list-style-type: none;
+}		
+
+#menu ul li {
+	float: right;
+	margin-right: 3em;
+}
+
+#menu ul li a {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+#menu ul li a:hover {
+	color: #5c86b0;
+	background: #ffffff; 
+	padding: 1em;
+}	
+
+/* Navigation Page --------------------------------------------------------------------------*/
+
+nav ul {
+	background: #5c86b0; 
+	background: linear-gradient(top, #5c86b0 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #5c86b0 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #5c86b0 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px .9em rgba(0,0,0,0.15);
+	margin: 0 1%;
+	padding:0 6em;
+	border-radius: 1em;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+	
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+	
+nav ul li a {
+	display: block; 
+	padding: 2em 5em;
+	color: #757575; 
+	text-decoration: none;
+}	
+
+/* Content Page --------------------------------------------------------------------------*/
+
+#showing {
+	float: right;
+	margin: 3% 30% 0 1%;
+}
+
+#now_showing {
+	text-align: center; 
+}
+
+.now { 
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.showing_date {
+	font-size: 1.2em;
+	padding-bottom: 1%;
+}
+
+.title {
+	font-size: 2.3em;
+	font-style: italic;
+	padding-bottom: 1%;
+}
+
+.subtitle {
+	font-size: .70em;
+	padding-bottom: 1%;
+}	
+
+.cert {
+	font-size: 1.3em;
+	padding-bottom: 1%; 
+}	
+
+.gift {
+	font-size: 1em;
+	padding-bottom: 1%;
+}
+
+#index_image img {
+	max-width: 100%; 
+}
+
+#index_image {
+	float: left;
+}
+
+/* Footer Page --------------------------------------------------------------------------*/
+
+#phonenumber {
+	float: right;
+}
+
+#address {
+	text-align: left;
+}
+
+footer p {
+	text-align: right;
+}
+
+footer { 
+	border: .3em solid #b05c5c;
+	width: 80%;
+	margin-top: 3%;
+	padding: 1%;
+	clear: both;
+}
+
+/* ====Event Section==========================================================================================*/	
+
+/* Calendar of Event Page --------------------------------------------------------------------------*/
+
+#event_pattern {
+	width: 80%;
+	border: 1em solid #865cb0;
+	padding: 0 2%;
+	display: table;
+}
+
+.inner {
+	display: table-row;
+	overflow: hidden;
+}
+
+.li-img {
+	display: table-cell;
+	vertical-align: middle; 
+	width: 20%;
+	padding-right: 1em;
+}	
+
+.li-img img {
+	display: block; 
+	width: 100%;
+	height: auto;
+}
+
+.li-text {
+	display: table-cell; 
+	vertical-align: middle; 
+	width: 100%;
+	padding: 0 10em 0 10em;
+	border: .3em solid #5c86b0;
+}
+
+.buy {
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	border: .3em solid #b05c5c;
+	margin: -6em -6em; 
+	padding: 2% 4%;
+}
+
+.li-text {
+	text-decoration: none;
+	color: #fff;
+}
+
+.date {
+	font-size: 1.3em; 
+}
+
+.name {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 3em; 
+	font-weight: bold;
+}
+
+
+/* Performances Section --------------------------------------------------------------------------*/	
+
+h5 {
+	font-weight: bold;
+	font-size: 2em;
+	margin: .03%;
+}
+
+h6 { 
+	font-size: 2em;
+	margin: .03%;
+}
+
+
+/* ====About Us Section==========================================================================================*/	
+
+/* About Us Page --------------------------------------------------------------------------*/
+
+#about {
+	padding-top: 2em; 
+}
+
+h7 { 
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0 3%;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#about img {
+	max-width: 100%;
+}	
+
+ul li img {
+	border: 1em solid #5c86b0;
+	margin: 0 2%;
+	width: 80%;
+}
+
+#about p {
+	margin: 2% 5% 3% 2%;
+	width: 70%;
+}
+
+/* ====Support Us Section==========================================================================================*/	
+
+/* Content Page --------------------------------------------------------------------------*/
+
+#support_us {
+	margin: 2%;
+	padding: 1%;
+	border: .3em solid #865cb0;
+}
+
+h8 {
+	font-size: 2em;
+	font-weight: bold;	
+}
+
+h9 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#financial {
+	border: .3em solid #865cb0;
+	margin: 2%;
+	padding: 1%;
+}
+
+#financial p {
+	padding-left: 2%;
+}
+
+/* ====Mailing Section==========================================================================================*/	
+
+/* Form Page --------------------------------------------------------------------------*/
+
+form {
+	margin: 2%;
+}
+
+form div {
+	padding: 1%;
+	margin-left: 2%; 
+}	
+
+h10 {
+	font-size: 2em;
+	font-weight: bold;	
+}
+
+/* ====Audition Section==========================================================================================*/	
+
+/* Audition Page --------------------------------------------------------------------------*/
+
+#audition {
+	margin: 2%;
+}
+
+h11 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#audition p { 
+	width: 80%;
+}	
+
+/*=== Media Queries 
+===================================================================================================================*/
+
+/*---Tablet Portrait size to standard 960 (devices and browsers) ---*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+nav ul { padding: 1em 2em; }
+nav ul li a { padding: 0 2em; }
+
+#showing { width: 100%; }
+#now_showing { text-align: left; margin: 3% -30% 1% 60%; }
+#index_image { margin: 2% -25% 1% 0; }
+
+#event_pattern { width: 90%; padding: 1% 2%; }	
+h4 { font-size: 2.1em; }
+.li-img { width: 30%; }	
+.buy { margin: -5em -9em; padding: 1% 2%; }
+.date { font-size: 1.1em; margin: 2% -30% 2% -40%; }
+.name { font-size: 1.8em; margin: 1% -30% 1% -40%; }
+
+footer { font-size: .90em; }
+
+}	
+
+/*---Mobile Lanscape Size to Tablet Portrait (devices and browsers) ---*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+nav ul { padding: 0 3em; }
+nav ul li a { padding: .80em 1em; }
+#menu { font-size: 1em; }
+#menu ul { width: 90%; }
+#menu ul li { margin-right: 1.1em; }
+
+#now_showing { text-align: left; margin: 3% -20% 1% 50%; }
+.title { font-size: 2em; }
+.cert { font-size: 1em; }
+.gift { font-size: .90em; }
+#index_image { margin: 2% -35% 1% 0; }
+
+#event_pattern { width: 80%; }	
+h4 { font-size: 2em; }
+h5 { font-size: 1.7em; }
+h6 { font-size: 1.7em; }	
+.buy { margin: -2em -9em; }
+.date { font-size: .90em; margin: 1% -85% 1% -120%; }
+.name { font-size: 1.1em; margin: 1% -85% 1% -120%; }
+
+footer { font-size: .60em; }
+
+}
+
+/*---Mobile Portrait Size to Mobile Lanscape Size (devices and browsers) ---*/
+@media only screen and (max-width: 479px) {
+
+h1 { font-size: 2em; }
+nav ul { padding: 0 1em; }
+nav ul li a { padding: .80em .90em; }
+#menu { font-size: .90em; }
+#menu ul { width: 90%; }
+#menu ul li { margin-right: 1em; }
+
+#now_showing { text-align: center; }
+#index_image { display: none; }
+.now { font-size: 1.2em; }
+
+#event_pattern { width: 50%; }
+h4 { font-size: 1.7em; }
+h5 { font-size: 1.7em; }
+h6 { font-size: 1.7em; }		
+.li-img img { display: none; }
+.buy { font-size: .90em; margin: -2.3em -9em; }
+.date { font-size: .90em; margin: 1% -85% 1% -130%; }
+.name { font-size: 1.1em; margin: 1% -85% 1% -130%; }
+
+h4 { font-size: 1.7em; }
+h5 { font-size: 1.7em; }
+
+footer { font-size: .50em; }
+
+}
